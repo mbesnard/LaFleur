@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type"> <!--accent lisible par les navigateurs-->
+		<title> Projet1 site de vente </title> <!--titre de la page -->
+		<link type="text/css" rel="stylesheet" href="style.css" />  <!--lien avec le CSS -->
+		<link href="https://fonts.googleapis.com/css?family=Lemonada" rel="stylesheet"> 
+	</head>
+	<div id= "baniere"> <!--haut de page --> 
+		<p>	Contact </p>
+	</div>
+
+	<nav id="menu"> 
+		<ul> <!--liste désordonnée-->
+			<li><a href="index.html">Accueil</a></li>
+			<li><a href="composition.html">Composition</a></li> 
+            <li><a href="fleurs.html">Fleurs</a></li>   
+            <li><a href="plantes.html">Plantes</a>
+            <li><a href="contact.html"> Contact </a></li>
+        </ul> 
+	</nav>	
+ 
+	<div id="contenu"> <!--3ème bloc-->
+		<p> <U>Formulaire de Contact : </U></p>	
+			<p> <br> Vous souhaitez nous contacter (pour une question, un souhait, une commande ou une remarque) ?</br> 
+			<br> Utilisez le formulaire ci-dessous et nous vous répondrons le plus vite possible ! </br> </p> 	
+			<form method="post" action="traitement.php">
+
+				<label for="prenom"> Société : </label>
+				<input type="text" name="societe" id="societe" placeholder="Ex : Aux 3 Fleurs" size="20" maxlength="30"/><br><br>
+
+				<label for="nom"> Nom* : </label>
+				<input type="text" name="nom" id="nom" placeholder="Ex : Blaise" size="30" maxlength="20" autofocus  required/><br><br>
+			
+		 	 	<label for="prenom"> Prénom* : </label>
+				<input type="text" name="prenom" id="prenom" placeholder="Ex : Pascal" size="30" maxlength="20" required/><br><br>
+
+				<label for="email"> @ mail : </label><input type="email" placeholder="Ex : aux3@fleurs.fr" size="20" maxlength="50"/><br><br>
+
+				<label for="tel"> Téléphone : </label> <input type="tel" placeholder="Ex : 0120304050" size="20" maxlength="14"/><br><br>
+				
+			 	<label for="objet"> Objet* : </label>
+			 	<input type="text" name="objet" id="objet" placeholder="Ex : Objet" size="30" maxlength="20" required/><br><br>
+			 		
+			 	<label for="presentation"> Votre Message* : </label>
+			 	<textarea name="presentation" id="presentation" required ></textarea><br><br> 
+
+			 	<p> * champs obligatoires </p>
+
+			<input type="submit" value="Envoyer"> 	
+			<input type="reset" value="Annuler">
+
+<p> Merci de votre visite et à bientôt ! </p>
+
+			</form>
+	<br>
+	</div>
+
+<div id="footer"> <!-- pied de page -->
+	<p> ©Aux Trois Fleurs 2017 | Conception et réalisation par la Société SIO </p>
+	<p> <a href=" mentions légales.html"> Mentions légales </a></p>
+</div>   

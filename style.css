@@ -1,0 +1,114 @@
+#baniere { /*haut de page*/
+    display: block; /*disposition bloc*/
+    height: auto; /*hauteur*/
+    width: auto; /*largeur*/
+    font-family: 'Lemonada', cursive; /*police*/
+    font-weight: bold;
+    text-align: center;
+    font-size: 150%; /*taille*/ 
+    background-image: url(rose.jpeg); /*image de font*/
+    border-radius: 20px; /*bordure arondi*/
+    }
+
+p{ /*paragraphe*/
+      color: white; /*couleur du paragraphe*/
+} 
+
+#menu { /*menu de base à la vertical sans décoration*/
+    display: block; 
+    background-color: white;
+    height: 35px;
+    width: 85%;
+    text-align: center;
+    margin-left: 15%;
+}
+#menu li { /*menu de base à l'horizontal sans décoration*/
+    display: inline; /*définit le menu en des blocs qui se suivent*/
+    list-style: none; /*pas de point pour faire une liste*/
+    margin: 4px; /*définit la marge qui séparent les blocs*/
+    float: left; /*boite flottante à droite*/
+    text-decoration: none; /* pas de "point" */
+    border-right: 100%; /*bordure du côté droit*/
+    padding: 0px; /*zone de remplissage correspondant à l'espace entre le contenu la bordure*/
+    margin-right: 50px; /*définit la marge de droite*/
+    text-align: center;
+}
+#menu li a { /*décoration*/
+    display: block;
+    width: 150px;
+    padding: 2px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: #7B266F;
+    text-align: center;
+}
+
+#menu a:hover {  /*permet au bloc de s'illuminer lorsque la souris passe dessus*/
+    color: #EC4AD6;
+    background: #fff;
+}
+
+#contenu {
+    display: block; 
+    background-color: #FFC0CB; 
+    height: auto; 
+    width: auto;  
+    font-family: Verdana; 
+    color: black; 
+    text-align: center; 
+    text-decoration: none;
+} 
+
+#tableau { /*pour les cartes Google */
+    display : inline-block;
+    padding:3px; 
+    border:2px dotted #a5a5a5; 
+    background-color:#FFE4E1;
+}  
+
+#footer { /*pied de page*/
+    display: block;
+    background-color: black;
+    height: auto;
+    width: 99%;
+    font-family: Arial;
+    font-size: 100%; 
+    color: white; 
+    text-align: center;
+    position: absolute;
+}
+form { /*formulaire de contact*/
+    margin: auto;
+    width: 500px; 
+    padding: 1em;
+    border: 1px solid black; /*contour*/
+    border-radius: 1em; /*arondi*/
+}
+
+
+ .img{ /*image des fleurs*/
+    width:400px; 
+    height:300px; 
+    display : inline-block; 
+    }
+ .text{ /*texte de description*/
+    width:auto;
+    height:auto;
+    background:#FFF; 
+    opacity:0;
+    } 
+  .img:hover .text { /*texte disparait et apparait au passage de la souris*/  
+    opacity:0.6; 
+    text-align:center; 
+    color:#000000; 
+    font-size:auto ; 
+    font-family:serif; 
+    padding:10px; 
+    } 
+
+
+
+
+
+
